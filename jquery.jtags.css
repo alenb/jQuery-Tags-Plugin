@@ -1,0 +1,5 @@
+.tags { padding: 5px; list-style: none; background: #fff; border: 1px solid #333; cursor: text; }
+	.tags li { display: inline-block; font-size: 0.9em; }
+	.tags li:not(:last-child) { margin: 0 3px 3px 0; padding: 3px; border-radius: 3px; color: #333; background: #FCE1BE; cursor: pointer; }
+	.tags img.remove { margin: 0 3px; vertical-align: middle; }
+	.tags input { border: none; }

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>jQuery jTags Plugin</title>
+	<style type="text/css">
+	* { margin: 0; padding: 0; font-family: Tahoma, Geneva, sans-serif; }
+	body { padding: 10px; }
+	</style>
+	<link rel="stylesheet" href="jquery.jtags.css"/>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="jquery.jtags.min.js"></script>
+	<script type="text/javascript">
+	$(function() {
+		$('.tags').jtags();
+	});
+	</script>
+</head>
+<body>
+
+<ul class="tags">
+	<li><img src="remove.png" class="remove" style="display:none;"/><input type="text" name="tags[]"/></li>
+</ul>
+
+</body>
+</html>
