@@ -42,7 +42,7 @@
 					}
 				}
 			});
-			// Remove the tag on remove button click
+			// Deletes the tag after clicking on remove
 			$(this).on('click', '.remove', function() {
 				$(this).parent().fadeOut('fast', function() { $(this).remove(); });
 			});
